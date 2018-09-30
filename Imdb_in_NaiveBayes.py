@@ -7,9 +7,9 @@ import numpy
 import time
 import math
 
-word_index = open("imdb_word_index.json", "r")
-text = word_index.read()
-json_index = json.loads(text)
+#word_index = open("imdb_word_index.json", "r")
+#text = word_index.read()
+#json_index = json.loads(text)
 
 x_test = numpy.load("./imdb/x_test.npy")
 x_train = numpy.load("./imdb/x_train.npy")
